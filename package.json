@@ -1,0 +1,19 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./bin/www",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "mongoose-profiler": "^0.2.1",
+    "supertest": "^6.1.3"
+  }
+}
